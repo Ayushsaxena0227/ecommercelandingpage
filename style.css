@@ -1,0 +1,140 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  width: 80%;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-container:hover {
+  transform: translateY(-5px);
+}
+
+.product-image img {
+  width: 400px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image img:hover {
+  transform: scale(1.1);
+}
+
+.product-details h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.product-description {
+  font-size: 18px;
+  color: #777;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-size: 28px;
+  color: #e67e22;
+  margin-bottom: 25px;
+}
+
+.add-to-cart {
+  padding: 10px 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #e67e22;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #d35400;
+}
+
+.enhancements {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.enhancements h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reviews p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.related-products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.related-product {
+  text-align: center;
+}
+
+.related-product img {
+  width: 150px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.related-product img:hover {
+  transform: scale(1.1);
+}
+
+.related-product p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
